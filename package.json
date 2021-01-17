@@ -1,0 +1,27 @@
+{
+  "name": "Semillero",
+  "version": "1.0.0",
+  "description": "Reto mysql - express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuVillegas/Semillero.git"
+  },
+  "keywords": [],
+  "author": "Samuel Villegas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuVillegas/Semillero/issues"
+  },
+  "homepage": "https://github.com/samuVillegas/Semillero#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7"
+  }
+}
