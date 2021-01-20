@@ -1,0 +1,343 @@
+[
+    {
+       "nro_placa":"CBA-000",
+       "id_linea":1,
+       "model":2000,
+       "fecha_ven_tecnomecanica": "2021-01-25",
+       "fecha_ven_seguro": "2021-01-25",
+       "fecha_ven_contratodo": "2021-01-25"
+    },
+    {
+       "nro_placa":"DCB-111",
+       "id_linea":2,
+       "model":2001,
+       "fecha_ven_tecnomecanica": "2021-01-26",
+       "fecha_ven_seguro": "2021-01-26",
+       "fecha_ven_contratodo": "2021-01-26"
+    },
+    {
+       "nro_placa":"EDC-222",
+       "id_linea":3,
+       "model":2003,
+       "fecha_ven_tecnomecanica": "2021-01-27",
+       "fecha_ven_seguro": "2021-01-27",
+       "fecha_ven_contratodo": "2021-01-27"
+    }, 
+    {
+       "nro_placa":"FED-333",
+       "id_linea":4,
+       "model":2003,
+       "fecha_ven_tecnomecanica": "2021-01-28",
+       "fecha_ven_seguro": "2021-01-28",
+       "fecha_ven_contratodo": "2021-01-28"
+    },   
+    {
+       "nro_placa":"GFE-444",
+       "id_linea":5,
+       "model":2005,
+       "fecha_ven_tecnomecanica": "2021-01-30",
+       "fecha_ven_seguro": "2021-01-30",
+       "fecha_ven_contratodo": "2021-01-30"
+    }, 
+    {
+       "nro_placa":"CBA-011",
+       "id_linea":1,
+       "model":2011,
+       "fecha_ven_tecnomecanica": "2021-01-25",
+       "fecha_ven_seguro": "2021-01-25",
+       "fecha_ven_contratodo": "2021-01-25"
+    },  
+    {
+       "nro_placa":"DCB-122",
+       "id_linea":2,
+       "model":2011,
+       "fecha_ven_tecnomecanica": "2021-01-26",
+       "fecha_ven_seguro": "2021-01-26",
+       "fecha_ven_contratodo": "2021-01-26"
+    },   
+    {
+       "nro_placa":"EDC-233",
+       "id_linea":3,
+       "model":2013,
+       "fecha_ven_tecnomecanica": "2021-01-27",
+       "fecha_ven_seguro": "2021-01-27",
+       "fecha_ven_contratodo": "2021-01-27"
+    },   
+    {
+       "nro_placa":"FED-346",
+       "id_linea":4,
+       "model":2015,
+       "fecha_ven_tecnomecanica": "2021-01-28",
+       "fecha_ven_seguro": "2021-01-28",
+       "fecha_ven_contratodo": "2021-01-28"
+    },  
+    {
+       "nro_placa":"GFE-457",
+       "id_linea":5,
+       "model":2017,
+       "fecha_ven_tecnomecanica": "2021-01-30",
+       "fecha_ven_seguro": "2021-01-30",
+       "fecha_ven_contratodo": "2021-01-30"
+    },   
+    {
+       "nro_placa":"CBA-211",
+       "id_linea":1,
+       "model":2010,
+       "fecha_ven_tecnomecanica": "2021-01-25",
+       "fecha_ven_seguro": "2021-01-25",
+       "fecha_ven_contratodo": "2021-01-25"
+    },   
+    {
+       "nro_placa":"DCB-322",
+       "id_linea":2,
+       "model":2011,
+       "fecha_ven_tecnomecanica": "2021-01-26",
+       "fecha_ven_seguro": "2021-01-26",
+       "fecha_ven_contratodo": "2021-01-26"
+    },  
+    {
+       "nro_placa":"EDC-433",
+       "id_linea":3,
+       "model":2013,
+       "fecha_ven_tecnomecanica": "2021-01-27",
+       "fecha_ven_seguro": "2021-01-27",
+       "fecha_ven_contratodo": "2021-01-27"
+    },    
+    {
+       "nro_placa":"FED-546",
+       "id_linea":4,
+       "model":2015,
+       "fecha_ven_tecnomecanica": "2021-01-28",
+       "fecha_ven_seguro": "2021-01-28",
+       "fecha_ven_contratodo": "2021-01-28"
+    },  
+    {
+       "nro_placa":"GFE-657",
+       "id_linea":5,
+       "model":2017,
+       "fecha_ven_tecnomecanica": "2021-01-30",
+       "fecha_ven_seguro": "2021-01-30",
+       "fecha_ven_contratodo": "2021-01-30"
+    },  
+    {
+       "nro_placa":"ZBA-211",
+       "id_linea":1,
+       "model":2010,
+       "fecha_ven_tecnomecanica": "2021-01-25",
+       "fecha_ven_seguro": "2021-01-25",
+       "fecha_ven_contratodo": "2021-01-25"
+    },   
+    {
+       "nro_placa":"ZCB-322",
+       "id_linea":2,
+       "model":2011,
+       "fecha_ven_tecnomecanica": "2021-01-26",
+       "fecha_ven_seguro": "2021-01-26",
+       "fecha_ven_contratodo": "2021-01-26"
+    },  
+    {
+       "nro_placa":"ZDC-433",
+       "id_linea":3,
+       "model":2013,
+       "fecha_ven_tecnomecanica": "2021-01-27",
+       "fecha_ven_seguro": "2021-01-27",
+       "fecha_ven_contratodo": "2021-01-27"
+    },  
+    {
+       "nro_placa":"ZED-546",
+       "id_linea":4,
+       "model":2015,
+       "fecha_ven_tecnomecanica": "2021-01-28",
+       "fecha_ven_seguro": "2021-01-28",
+       "fecha_ven_contratodo": "2021-01-28"
+    },
+    
+    {
+       "nro_placa":"ZFE-657",
+       "id_linea":5,
+       "model":2017,
+       "fecha_ven_tecnomecanica": "2021-01-30",
+       "fecha_ven_seguro": "2021-01-30",
+       "fecha_ven_contratodo": "2021-01-30"
+    },  
+    {
+       "nro_placa":"XBV-211",
+       "id_linea":1,
+       "model":2010,
+       "fecha_ven_tecnomecanica": "2021-01-25",
+       "fecha_ven_seguro": "2021-01-25",
+       "fecha_ven_contratodo": "2021-01-25"
+    },
+    
+    {
+       "nro_placa":"XCV-322",
+       "id_linea":2,
+       "model":2011,
+       "fecha_ven_tecnomecanica": "2021-01-26",
+       "fecha_ven_seguro": "2021-01-26",
+       "fecha_ven_contratodo": "2021-01-26"
+    },
+    
+    {
+       "nro_placa":"XDV-433",
+       "id_linea":3,
+       "model":2013,
+       "fecha_ven_tecnomecanica": "2021-01-27",
+       "fecha_ven_seguro": "2021-01-27",
+       "fecha_ven_contratodo": "2021-01-27"
+    },
+    
+    {
+       "nro_placa":"XEV-546",
+       "id_linea":4,
+       "model":2015,
+       "fecha_ven_tecnomecanica": "2021-01-28",
+       "fecha_ven_seguro": "2021-01-28",
+       "fecha_ven_contratodo": "2021-01-28"
+    },
+    
+    {
+       "nro_placa":"XFV-657",
+       "id_linea":5,
+       "model":2017,
+       "fecha_ven_tecnomecanica": "2021-01-30",
+       "fecha_ven_seguro": "2021-01-30",
+       "fecha_ven_contratodo": "2021-01-30"
+    },
+    
+    
+    
+    {
+       "nro_placa":"XNV-211",
+       "id_linea":1,
+       "model":2010,
+       "fecha_ven_tecnomecanica": "2021-01-25",
+       "fecha_ven_seguro": "2021-01-25",
+       "fecha_ven_contratodo": "2021-01-25"
+    },
+    
+    {
+       "nro_placa":"XNV-322",
+       "id_linea":2,
+       "model":2011,
+       "fecha_ven_tecnomecanica": "2021-01-26",
+       "fecha_ven_seguro": "2021-01-26",
+       "fecha_ven_contratodo": "2021-01-26"
+    },
+    
+    {
+       "nro_placa":"XNV-433",
+       "id_linea":3,
+       "model":2013,
+       "fecha_ven_tecnomecanica": "2021-01-27",
+       "fecha_ven_seguro": "2021-01-27",
+       "fecha_ven_contratodo": "2021-01-27"
+    },
+    
+    {
+       "nro_placa":"XNV-546",
+       "id_linea":4,
+       "model":2015,
+       "fecha_ven_tecnomecanica": "2021-01-28",
+       "fecha_ven_seguro": "2021-01-28",
+       "fecha_ven_contratodo": "2021-01-28"
+    },
+    
+    {
+       "nro_placa":"XNV-657",
+       "id_linea":5,
+       "model":2017,
+       "fecha_ven_tecnomecanica": "2021-01-30",
+       "fecha_ven_seguro": "2021-01-30",
+       "fecha_ven_contratodo": "2021-01-30"
+    },
+    
+    {
+       "nro_placa":"XNM-211",
+       "id_linea":10,
+       "model":2010,
+       "fecha_ven_tecnomecanica": "2021-01-25",
+       "fecha_ven_seguro": "2021-01-25",
+       "fecha_ven_contratodo": "2021-01-25"
+    },
+    
+    {
+       "nro_placa":"XNM-322",
+       "id_linea":11,
+       "model":2011,
+       "fecha_ven_tecnomecanica": "2021-01-26",
+       "fecha_ven_seguro": "2021-01-26",
+       "fecha_ven_contratodo": "2021-01-26"
+    },
+    
+    {
+       "nro_placa":"XNM-433",
+       "id_linea":12,
+       "model":2020,
+       "fecha_ven_tecnomecanica": "2021-01-27",
+       "fecha_ven_seguro": "2021-01-27",
+       "fecha_ven_contratodo": "2021-01-27"
+    },
+    
+    {
+       "nro_placa":"XNM-546",
+       "id_linea":13,
+       "model":2015,
+       "fecha_ven_tecnomecanica": "2021-01-28",
+       "fecha_ven_seguro": "2021-01-28",
+       "fecha_ven_contratodo": "2021-01-28"
+    },
+    
+    {
+       "nro_placa":"XNM-657",
+       "id_linea":14,
+       "model":2017,
+       "fecha_ven_tecnomecanica": "2021-01-30",
+       "fecha_ven_seguro": "2021-01-30",
+       "fecha_ven_contratodo": "2021-01-30"
+    },
+
+    {
+       "nro_placa":"XNJ-211",
+       "id_linea":15,
+       "model":2010,
+       "fecha_ven_tecnomecanica": "2021-01-25",
+       "fecha_ven_seguro": "2021-01-25",
+       "fecha_ven_contratodo": "2021-01-25"
+    },
+    
+    {
+       "nro_placa":"XNJ-322",
+       "id_linea":16,
+       "model":2011,
+       "fecha_ven_tecnomecanica": "2021-01-26",
+       "fecha_ven_seguro": "2021-01-26",
+       "fecha_ven_contratodo": "2021-01-26"
+    },
+    
+    {
+       "nro_placa":"XNJ-433",
+       "id_linea":17,
+       "model":2020,
+       "fecha_ven_tecnomecanica": "2021-01-27",
+       "fecha_ven_seguro": "2021-01-27",
+       "fecha_ven_contratodo": "2021-01-27"
+    },
+    
+    {
+       "nro_placa":"XNJ-546",
+       "id_linea":18,
+       "model":2015,
+       "fecha_ven_tecnomecanica": "2021-01-28",
+       "fecha_ven_seguro": "2021-01-28",
+       "fecha_ven_contratodo": "2021-01-28"
+    },
+    
+    {
+       "nro_placa":"XNJ-657",
+       "id_linea":19,
+       "model":2017,
+       "fecha_ven_tecnomecanica": "2021-01-30",
+       "fecha_ven_seguro": "2021-01-30",
+       "fecha_ven_contratodo": "2021-01-30"
+    }]

@@ -17,8 +17,8 @@ app.listen(8086,()=>{
 });
 
 //Variables de entorno
-app.set('port',process.env.PORT || 5000); // Si existe PORT sino 5000 Asignar variable
+/*app.set('port',process.env.PORT || 5000); // Si existe PORT sino 5000 Asignar variable
 
 app.listen(app.get('port'),() =>{
     console.log(`Aplicacion corriendo en el puerto ${app.get('port')}`);
-});
+});*/

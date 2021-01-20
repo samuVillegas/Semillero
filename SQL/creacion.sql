@@ -29,19 +29,12 @@ CREATE TABLE tipo_linea(
         ON UPDATE CASCADE
 )ENGINE=INNODB;
 
-CREATE TABLE modelo(
-    nombre_modelo varchar(255) NOT NULL,
-    fecha_modelo DATE NOT NULL,
-    desc_modelo TEXT COMMENT 'La descripción puede ser opcional dado que 
-                                con el nombre y la descripcion puede bastar',
-    PRIMARY KEY (nombre_modelo,fecha_modelo)                
-)ENGINE=INNODB;
+CREATE TABLE modelo(model int(5) UNSIGNED PRIMARY KEY)ENGINE=INNODB;
 
-CREATE TABLE vehiculos(
-    nro_placa varchar(6) PRIMARY KEY,
+CREATE TABLE vehiculo(
+    nro_placa varchar(7) PRIMARY KEY,
     id_linea int(5) UNSIGNED NOT NULL,
-    nombre_modelo varchar(255) NOT NULL,
-    fecha_modelo DATE NOT NULL, 
+    modelo int(5) UNSIGNED NOT NULL,
     fecha_ven_seguro DATE COMMENT 'Puede pasar que no se tenga seguro
                                     y lo indicamos si el campo es null',
     fecha_ven_tecnomecanica DATE COMMENT 'Puede pasar que no se tenga tecnomecanica
@@ -49,7 +42,7 @@ CREATE TABLE vehiculos(
     fecha_ven_contratodo DATE COMMENT 'Puede pasar que no se tenga contratodo
                                     y lo indicamos si el campo es null',
     FOREIGN KEY (id_linea) REFERENCES tipo_linea(id_linea),
-    FOREIGN KEY (nombre_modelo,fecha_modelo) REFERENCES modelo(nombre_modelo,fecha_modelo)
+    FOREIGN KEY (modelo) REFERENCES modelo(model)
         ON DELETE RESTRICT 
         ON UPDATE CASCADE
 )ENGINE=INNODB;

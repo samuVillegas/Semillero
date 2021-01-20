@@ -1,0 +1,104 @@
+[{
+    "desc_linea":"Planta de prensas BMW",
+    "id_marca":1,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de chapistería BMW",
+    "id_marca":1,
+    "activo": "N"
+},
+{
+    "desc_linea":"Planta de pintura BMW",
+    "id_marca":1,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de montaje BMW",
+    "id_marca":1,
+    "activo": "N"
+},
+
+{
+    "desc_linea":"Planta de prensas Mercedes-Benz ",
+    "id_marca":2,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de chapistería Mercedes-Benz",
+    "id_marca":2,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de pintura Mercedes-Benz",
+    "id_marca":2,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de montaje Mercedes-Benz",
+    "id_marca":2,
+    "activo": "S"
+},
+
+{
+    "desc_linea":"Planta de prensas Audi ",
+    "id_marca":3,
+    "activo": "N"
+},
+{
+    "desc_linea":"Planta de chapistería Audi",
+    "id_marca":3,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de pintura Audi",
+    "id_marca":3,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de montaje Audi",
+    "id_marca":3,
+    "activo": "N"
+},
+
+{
+    "desc_linea":"Planta de prensas Lexus ",
+    "id_marca":4,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de chapistería Lexus",
+    "id_marca":4,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de pintura Lexus",
+    "id_marca":4,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de montaje Lexus",
+    "id_marca":5,
+    "activo": "S"
+},
+
+{
+    "desc_linea":"Planta de prensas Renault ",
+    "id_marca":5,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de chapistería Renault",
+    "id_marca":5,
+    "activo": "S"
+},
+{
+    "desc_linea":"Planta de pintura Renault",
+    "id_marca":5,
+    "activo": "N"
+},
+{
+    "desc_linea":"Planta de montaje Renault",
+    "id_marca":5,
+    "activo": "S"
+}]

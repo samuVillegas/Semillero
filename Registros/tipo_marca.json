@@ -1,0 +1,24 @@
+[{
+    "desc_marca":"BMW es un fabricante alemán de automóviles y motocicletas de alta gama y lujo, cuya sede se encuentra en Múnich.",
+    "activo": "S"
+},
+{
+    "desc_marca":"Mercedes-Benz es una empresa alemana fabricante de vehículos de lujo, filial de la compañía Daimler AG.",
+    "activo": "S"
+},
+{
+    "desc_marca":"Audi es una empresa multinacional alemana fabricante de automóviles de alta gama y deportivos.",
+    "activo": "S"
+},
+{
+    "desc_marca":"Lexus es una marca japonesa de automóviles de alta gama creada por Toyota en 1989​ para competir, inicialmente en Estados Unidos y luego a nivel mundial, contra Mercedes-Benz, BMW y Audi.​",
+    "activo": "S"
+},
+{
+    "desc_marca":"Renault es un fabricante francés de automóviles tanto de lujo como de turismo, vehículos comerciales y automóviles de carreras.",
+    "activo": "S"
+},
+{
+    "desc_marca":"Škoda Auto es un fabricante de automóviles de la República Checa, y una de las cuatro empresas de automóviles más antiguas del mundo. ",
+    "activo": "N"
+}]
