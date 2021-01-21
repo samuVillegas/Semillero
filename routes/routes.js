@@ -599,5 +599,4 @@ router.get('/get_tipo_linea', async(req,res)=>{
 });
 
 
-
 module.exports = router;
