@@ -1,0 +1,760 @@
+{
+	"info": {
+		"_postman_id": "a5b7c796-9d30-4c3c-90ae-08cde8650f4d",
+		"name": "Semillero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crear registros en tabla tipo_marca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/tipo_marca",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"tipo_marca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear registros en tabla tipo_linea",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/tipo_linea",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"tipo_linea"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear registros en tabla modelo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/modelo",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"modelo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear registros en tabla vehiculo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/vehiculo",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"vehiculo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comprobar la cantidad de registros de la tabla tipo_marca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/comprobar_tipo_marca",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"comprobar_tipo_marca"
+					]
+				},
+				"description": "sussses: true -> Cumple con la cantidad\nsussses: false -> No cumple con la cantidad"
+			},
+			"response": []
+		},
+		{
+			"name": "Comprobar la cantidad de registros de la tabla tipo_linea",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/comprobar_tipo_linea",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"comprobar_tipo_linea"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comprobar la cantidad de registros de la tabla vehiculo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/comprobar_vehiculo",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"comprobar_vehiculo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/modelo_min_max",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/modelo_min_max",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"modelo_min_max"
+					]
+				},
+				"description": "/*\n    Se debe generar una consulta que indique cual es el modelo\n    máximo almacenado y el mínimo. (Crear un servicio en\n    Express que devuelva dicha información).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/lineas_marca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/lineas_marca",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"lineas_marca"
+					]
+				},
+				"description": "/*\n    Se debe generar una consulta que contenga DESC_MARCA,\n    DESC_LINEA y cantidad, para saber cuántas líneas repetidas\n    por marca están almacenadas. (Crear un servicio en Express\n    que devuelva dicha información).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/vehiculos_rango/2021-01-25/2021-01-26",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/vehiculos_rango/2021-01-25/2021-01-26",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"vehiculos_rango",
+						"2021-01-25",
+						"2021-01-26"
+					]
+				},
+				"description": "/*\n    Crear una consulta de vehículos que me permita consultar\n    todos los vehículos por un rango de fechas sobre el campo\n    FECHA_VEN_SEGURO. (Crear un servicio en Express que\n    devuelva dicha información y reciba el rango de fecha por\n    query o params).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/vehiculos_rango_modelo/2000/2002",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/vehiculos_rango_modelo/2000/2002",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"vehiculos_rango_modelo",
+						"2000",
+						"2002"
+					]
+				},
+				"description": "/*\n    Crear una consulta de vehículos que me permita consultar\n    todos los vehículos por un rango de modelos por el campo\n    modelo. (Crear un servicio en Express que devuelva dicha\n    información).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_marca/6",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"desc_marca\":\"Opel Automobile GmbH es una empresa alemana de automóviles, filial desde 2017 de la empresa francesa Groupe PSA.\",\n    \"activo\":\"N\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_marca/6",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"update_tipo_marca",
+						"6"
+					]
+				},
+				"description": "/*\n    Crear un UPDATE que permita modificar el estado de alguno\n    de los registros.\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"activo\":\"S\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"update_tipo_linea",
+						"19"
+					]
+				},
+				"description": "/*\n    Crear un UPDATE que permita modificar el estado de alguno\n    de los registros.\n*/\n"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id_linea\":6,\n  \"modelo\":\"2018\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_vehiculos/CBA-000",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"update_vehiculos",
+						"CBA-000"
+					]
+				},
+				"description": "/*\n    Crear un UPDATE que permita modificar el estado de alguno\n    de los registros.\n*/\n"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"desc_marca\":\"SEAT, S.A. es una empresa española de automóviles fundada por el desaparecido Instituto Nacional de Industria el 9 de mayo de 1950.\",\n  \"activo\":\"S\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/add_tipo_marca",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"add_tipo_marca"
+					]
+				},
+				"description": "\n/*\n    Crear un SQL para insertar un registro adicional en\n    TIPO_MARCA. (Crear un servicio en Express).\n*/\n"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/delete_tipo_marca/7",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"delete_tipo_marca",
+						"7"
+					]
+				},
+				"description": "/*\n    Crear un SQL para eliminar un registro en TIPO_MARCA. (Crear\n    un servicio en Express).\n\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/descripcion1",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"descripcion1"
+					]
+				},
+				"description": "/*\n    Crear una consulta única que tenga las siguientes columnas:\n    NRO_PLACA, MODELO, DESC_LINEA, DESC_MARCA; traer\n    todos los registros que coincidan en todas las tablas. (Crear un servicio en Express).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/descripcion2",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"descripcion2"
+					]
+				},
+				"description": "/*\n    Crear una consulta única que tenga las siguientes columnas:\n    NRO_PLACA, MODELO, DESC_LINEA, DESC_MARCA; traer\n    todos los registros que coincidan en todas las tablas y que se\n    encuentren en estado S. (Crear un servicio en Express).\n\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/suma_modelos",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"suma_modelos"
+					]
+				},
+				"description": "/*\n    Se debe realizar una consulta que permita sumar todos los\n    modelos. (Crear un servicio en Express). Se tomó los modelos de los vehiculos.\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/promedio_modelos",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"promedio_modelos"
+					]
+				},
+				"description": "/*\n    Se debe realizar una consulta que permita promediar todos los\n    modelos. (Crear un servicio en Express).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/act_ina_tipo_linea",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"act_ina_tipo_linea"
+					]
+				},
+				"description": "/*\n    Se debe realizar una única consulta que permita saber cuántos\n    registros están activos e inactivos de la tabla TIPO_LINEA.\n    (Crear un servicio en Express).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/descripcion3",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"descripcion3"
+					]
+				},
+				"description": "/*\n    Cree una consulta que una las tablas VEHICULOS, TIPO_LINEA\n    y TIPO_MARCA mediante INNER JOIN y LEFT JOIN, en esta\n    consulta se deben proyectar los campos NRO_PLACA,\n    MODELO, DESC_LINEA y DESC_MARCA. (Crear dos servicios\n    en Express).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/descripcion4",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"descripcion4"
+					]
+				},
+				"description": "/*\n    Cree una consulta que una las tablas VEHICULOS, TIPO_LINEA\n    y TIPO_MARCA mediante INNER JOIN y LEFT JOIN, en esta\n    consulta se deben proyectar los campos NRO_PLACA,\n    MODELO, DESC_LINEA y DESC_MARCA. (Crear dos servicios\n    en Express).\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/get_vehiculos",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"get_vehiculos"
+					]
+				},
+				"description": "/*\n\n    Se debe implementar una única consulta y un servicio en Express\n    (un servicio en Express por cada tabla) que permita conocer\n    todos los campos de la tabla VEHICULOS, TIPO_LINEA,\n    TIPO_MARCA con las siguientes características:\n    No puede traer registros que tengan campos nulos\n    El campo modelo debe salir de la siguiente manera\n    #ModeloVehiculo: Modelo Las fechas deben salir con formato\n    dd/mm/yyyy hh:mi:ss\n    Los campos S y N debe salir con el texto ACTIVO o INACTIVO\n\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/get_tipo_marca",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"get_tipo_marca"
+					]
+				},
+				"description": "/*\n\n    Se debe implementar una única consulta y un servicio en Express\n    (un servicio en Express por cada tabla) que permita conocer\n    todos los campos de la tabla VEHICULOS, TIPO_LINEA,\n    TIPO_MARCA con las siguientes características:\n    No puede traer registros que tengan campos nulos\n    El campo modelo debe salir de la siguiente manera\n    #ModeloVehiculo: Modelo Las fechas deben salir con formato\n    dd/mm/yyyy hh:mi:ss\n    Los campos S y N debe salir con el texto ACTIVO o INACTIVO\n\n*/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://academia-semillero-sdvillegab.herokuapp.com/api/update_tipo_linea/19",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://academia-semillero-sdvillegab.herokuapp.com/api/get_tipo_linea",
+					"protocol": "https",
+					"host": [
+						"academia-semillero-sdvillegab",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"get_tipo_linea"
+					]
+				},
+				"description": "/*\n\n    Se debe implementar una única consulta y un servicio en Express\n    (un servicio en Express por cada tabla) que permita conocer\n    todos los campos de la tabla VEHICULOS, TIPO_LINEA,\n    TIPO_MARCA con las siguientes características:\n    No puede traer registros que tengan campos nulos\n    El campo modelo debe salir de la siguiente manera\n    #ModeloVehiculo: Modelo Las fechas deben salir con formato\n    dd/mm/yyyy hh:mi:ss\n    Los campos S y N debe salir con el texto ACTIVO o INACTIVO\n\n*/"
+			},
+			"response": []
+		}
+	]
+}
