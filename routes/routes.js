@@ -386,7 +386,7 @@ router.delete('/delete_tipo_marca/:id_marca', async (req, res) => {
     try {
         const rows = await cnn_mysql.promise().execute(
             `DELETE FROM tipo_marca WHERE id_marca = ${req.params.id_marca}`);
-        if (rows[0].affectedRows > 0) res.send({ message: "Registro actualizado" })
+        if (rows[0].affectedRows > 0) res.send({ message: "Registro eliminado" })
         else res.json({ message: "Registro no eliminado con el id enviado" });
     } catch (e) {
         res.status(500).json({
